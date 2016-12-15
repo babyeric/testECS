@@ -13,4 +13,4 @@ RUN \
     echo "EnableMMAP off" >> /etc/httpd/conf/httpd.conf &&\ 
     echo "EnableSendfile off" >> /etc/httpd/conf/httpd.conf 
 
-CMD service httpd start && /bin/bash
+CMD /usr/sbin/httpd -DFOREGROUND
