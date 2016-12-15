@@ -4,6 +4,7 @@ MY_ECR="image_xyz"
 MY_VER=$(date +%s)
 
 echo MY_VER="$MY_VER"
+echo "$MY_VER" > ./build/version.txt
 
 echo build...
 zip -r ./build/image/web.zip ./web
