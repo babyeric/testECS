@@ -16,6 +16,9 @@
                     "protocol": "tcp"
                 }
             ],
+            "logConfiguration": {
+                "logDriver": "awslogs"
+            },
             "hostname": null,
             "essential": true,
             "entryPoint": null,
