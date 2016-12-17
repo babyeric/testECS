@@ -4,7 +4,7 @@ MY_ECR="image_xyz"
 MY_VER=$(date +%s)
 
 echo MY_VER="$MY_VER"
-sed -i "s/\$BUILD_VER/$VER/g" ./build/taskDef.txt
+sed -i "s/\$BUILD_VER/$MY_VER/g" ./build/taskDef.txt
 
 echo build...
 zip -r ./build/image/web.zip ./web
