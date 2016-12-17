@@ -1,0 +1,42 @@
+{
+    "networkMode": "bridge",
+    "taskRoleArn": null,
+    "containerDefinitions": [
+        {
+            "volumesFrom": [],
+            "memory": 300,
+            "extraHosts": null,
+            "dnsServers": null,
+            "disableNetworking": null,
+            "dnsSearchDomains": null,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "hostname": null,
+            "essential": true,
+            "entryPoint": null,
+            "mountPoints": [],
+            "name": "simple-app",
+            "ulimits": null,
+            "dockerSecurityOptions": null,
+            "environment": [],
+            "links": [],
+            "workingDirectory": null,
+            "readonlyRootFilesystem": null,
+            "image": "366301983362.dkr.ecr.us-west-2.amazonaws.com/test_repo:$BUILD_VER",
+            "command": null,
+            "user": null,
+            "dockerLabels": null,
+            "logConfiguration": null,
+            "cpu": 10,
+            "privileged": null,
+            "memoryReservation": null
+        }
+    ],
+    "volumes": [],
+    "family": "my-demo"
+}
