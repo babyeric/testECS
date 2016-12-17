@@ -17,7 +17,7 @@
                 }
             ],
             "logConfiguration": {
-                "logDriver": "awslogs"
+                "logDriver": "json-file"
             },
             "hostname": null,
             "essential": true,
@@ -34,7 +34,6 @@
             "command": null,
             "user": null,
             "dockerLabels": null,
-            "logConfiguration": null,
             "cpu": 10,
             "privileged": null,
             "memoryReservation": null
